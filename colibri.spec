@@ -1,11 +1,11 @@
 Summary:	Alternative notifications for KDE4
 Name:		colibri
-Version:	0.2.2
-Release:	%mkrel 1
-Source0:	http://kde-apps.org/CONTENT/content-files/117147-%{name}-%{version}.tar.bz2
-License:	GPLv2
+Version:	0.3.0
+Release:	1
 Group:		Graphical desktop/KDE
-URL:		http://kde-apps.org/content/show.php/Colibri?content=117147
+License:	GPLv2
+Url:		http://kde-apps.org/content/show.php/Colibri?content=117147
+Source0:	ftp://ftp.kde.org/pub/kde/stable/%{name}/%{name}-%{version}.tar.bz2
 BuildRequires:	kdelibs4-devel
 Requires:	kdebase4-workspace
 
@@ -40,32 +40,7 @@ http://gitorious.org/colibri/pages/SetupHowto.
 %cmake_kde4
 
 %install
-%__rm -rf %{buildroot}
 %makeinstall_std -C build
 
 %find_lang %{name}
-
-%clean
-%__rm -rf %{buildroot}
-
-
-
-%changelog
-* Wed Feb 22 2012 Andrey Bondrov <abondrov@mandriva.org> 0.2.2-1mdv2011.0
-+ Revision: 779046
-- imported package colibri
-
-
-* Fri Jan 13 2012 mikala <mikala> 0.2.2-1.mga2
-+ Revision: 195658
-- Update tarball to 0.2.2
-- remove %%clean section
-- add requires against kdebase4-workspace
-- change in spec layout
-- use cmake_kde4
-
-* Mon Feb 14 2011 mikala <mikala> 0.2.1-1.mga1
-+ Revision: 51660
-- Fix Group
-- imported package colibri
 
