@@ -1,7 +1,7 @@
 Summary:	Alternative notifications for KDE4
 Name:		colibri
 Version:	0.3.0
-Release:	1
+Release:	2
 Group:		Graphical desktop/KDE
 License:	GPLv2
 Url:		http://kde-apps.org/content/show.php/Colibri?content=117147
