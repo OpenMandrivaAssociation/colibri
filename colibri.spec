@@ -4,7 +4,7 @@ Version:	0.3.0
 Release:	2
 Group:		Graphical desktop/KDE
 License:	GPLv2
-Url:		http://kde-apps.org/content/show.php/Colibri?content=117147
+Url:		https://kde-apps.org/content/show.php/Colibri?content=117147
 Source0:	ftp://ftp.kde.org/pub/kde/stable/%{name}/%{name}-%{version}.tar.bz2
 BuildRequires:	kdelibs4-devel
 Requires:	kdebase4-workspace
